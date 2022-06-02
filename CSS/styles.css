@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+}
+
+#gallow {
+    max-width: 1200px;
+    min-width: 600px;
+    max-height: 800px;
+    min-height: 400px;
+    height: 60vh;
+    border: 1px dotted black;
+    margin: 0 auto;
+}
+
+.board {
+    background-color: #F3F5FC;
+    height: 100%;
+}
+
+#gallow, .board {
+    border-radius: 50px;
+}
+
+.draw-hangman {
+    height: 72%;
+}
+
+#secret-w {
+    letter-spacing: 30px;
+    font-size: 200%;
+    height: 10%;
+}
+
+#fails {
+    letter-spacing: 25px;
+    font-size: 150%;
+}
+
+#final {
+    display: inline;
+    position: absolute;
+    margin-top: 200px;
+    font-size: 150%;
+}
+
+.finnaly {
+    color: crimson;
+}
+
+.winner {
+    color: green;
+}
+
+button {
+    font-size: 120%;
+    padding: 3px;
+    border-radius: 15px;
+    background-color: rgb(191, 128, 255);
+    transition: 600ms;
+}
+
+button:hover {
+    font-size: 150%;
+    background-color: rgb(101, 191, 221);
+    color: rgb(182, 50, 56);
+}
+
+#button-start {
+    margin: 20px 0;
+}
+
+#words-to-add {
+    margin: 20px 0;
+}
+
+input {
+    font-size: 120%;
+}
